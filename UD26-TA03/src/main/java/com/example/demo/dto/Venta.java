@@ -29,7 +29,6 @@ public class Venta {
 	
 	//Constructores
 	public Venta() {
-		
 	}
 
 	public Venta(Cajeros cajeros, Productos productos, Maquinas_registradoras maquinas_registradoras) {
