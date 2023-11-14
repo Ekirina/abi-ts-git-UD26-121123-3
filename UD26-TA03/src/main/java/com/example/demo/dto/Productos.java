@@ -24,7 +24,7 @@ public class Productos {
 	private int precio;
 	
 	@OneToMany
-	@JoinColumn(name="codigo")
+	@JoinColumn(name="codigo_producto")
 	private List <Venta> venta;
 	
 	//Constructores

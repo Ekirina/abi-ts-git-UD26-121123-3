@@ -22,7 +22,7 @@ public class Cajeros {
 	private String nom_apels;
 	
 	@OneToMany
-	@JoinColumn(name="codigo")
+	@JoinColumn(name="codigo_cajero")
 	private List<Venta> venta;
 	
 	//Constructores
